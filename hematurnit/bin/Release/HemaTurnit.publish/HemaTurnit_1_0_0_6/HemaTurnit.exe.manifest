@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="HemaTurnit.exe" version="1.0.0.6" publicKeyToken="5908f613d0ee4dd0" language="ar-EG" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1278891269_switch_off.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HemaTurnit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HemaTurnit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HemaTurnit.exe" size="659456">
+      <assemblyIdentity name="HemaTurnit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YP5g+Z3nIy2nSwR5DazDj58bTkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThemeKit.dll" size="135168">
+      <assemblyIdentity name="ThemeKit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>I1y0fprFJxJJKIZYQjTntbFIfdQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1278844965_exit.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BkMZNCXmosKAvG+jjX5iiwMG084=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="1278891269_switch_off.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Acsdtuw/mUkRb8GVvh9G1VW+qek=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HEMA\Administrator" issuerKeyHash="258442d902a39a51316469c8bf1b44577e109108" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>aiNGIIv36bMC95UAoeWzV34N2TM=</DigestValue></Reference></SignedInfo><SignatureValue>IN2KnsgMIGgZXlJbT/KFqy2qAKOiTBok0LhgzZsroWzj1lk0ECeX+lOiM9/JSxT3YEXTSKCT6CeggoP9ozCyw4JUfi6yaWHxGauSCb3OHcMNdNXWwHf7lAvpY3sUwNfHqTk81rrnS04xpbo0wmSbAP4ufF3wxAaIqyQ0n3WNGCk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jL/h1DOHrAOdJYNaUEjNHqwVguNypP0J+GYN40d5SRIwWcanUsoUikhkU2OgUoDGKdBum8vmZDXlzlsry+nfXuwhXA5i6vuGmWTemJEEyS5jzkLNKVqIHQIbB19sKJIr4mtSGKZySZz1pdBAO3MHRx8ZudZOCAQ9WJu1rEbkS0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="33d90d7e57b3e5a10095f702b3e9f78b2046236a" Description="" Url=""><as:assemblyIdentity name="HemaTurnit.exe" version="1.0.0.6" publicKeyToken="5908f613d0ee4dd0" language="ar-EG" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HEMA\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JXQKVbiZyskCr2dnDlFgoKzxwzk=</DigestValue></Reference></SignedInfo><SignatureValue>fHX7PkDt9+PirXChJFhU6Rutqs4c8EIEoKPrSmpxrOKDx0TED9aTemUmLAJ3e/AjqZQM/OpDZAAKpNR2OdyEFjPdZm4eOtsN0i6t5Z/h7hlgDZhAHtyBvOHj5hSBe3p6lD4UMDUDwVQWolz9KX1CDovNkUAjoBt/I72BsxUz8g4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jL/h1DOHrAOdJYNaUEjNHqwVguNypP0J+GYN40d5SRIwWcanUsoUikhkU2OgUoDGKdBum8vmZDXlzlsry+nfXuwhXA5i6vuGmWTemJEEyS5jzkLNKVqIHQIbB19sKJIr4mtSGKZySZz1pdBAO3MHRx8ZudZOCAQ9WJu1rEbkS0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQNQ4AzJsoD7dJD5zlzv+ntjAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABIAEUATQBBAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xMDA3MTEyMzM5MDRaFw0xMTA3MTIwNTM5MDRaMC8xLTArBgNVBAMeJABIAEUATQBBAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAjL/h1DOHrAOdJYNaUEjNHqwVguNypP0J+GYN40d5SRIwWcanUsoUikhkU2OgUoDGKdBum8vmZDXlzlsry+nfXuwhXA5i6vuGmWTemJEEyS5jzkLNKVqIHQIbB19sKJIr4mtSGKZySZz1pdBAO3MHRx8ZudZOCAQ9WJu1rEbkS0UCAwEAATAJBgUrDgMCHQUAA4GBADkJy49DTYy+OOEyaaWAv/rojb7IVumJ7SG1X2fmzA1iT5DqIBOrtgJjs62eyP2kn36H7Qs/RNTTIEKLmXfdI38Z/9cnRkGO42zdO1+iTWwDlcZ9TDWVKIg6vGtu1U+9zSozb481DxW1+4K2pkORwJ4Ns2681hHWDS1hq9KYkpXk</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
